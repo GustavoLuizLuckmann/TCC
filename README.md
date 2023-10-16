@@ -1,2 +1,9 @@
-# TCC
-The code aims to help identify the effects on Lithuania's inflation with the adoption of the Euro in 2015, using the synthetic control method.
+# TCC - USING THE SYNTHETIC CONTROL METHOD TO ESTIMATE THE EFFECTS ON LITHUANIA'S INFLATION WITH THE ADOPTION OF THE EURO
+
+The code aims to help identify the effects on Lithuania's inflation with the adoption of the Euro in 2015, using the synthetic control method. The synthetic control method is a statistical technique used primarily for evaluating the effects of policies or interventions in comparative case studies. It's especially helpful when a randomized controlled trial is not feasible due to practical reasons.
+
+In essence, this method seeks to estimate the effect of an intervention by comparing the post-intervention outcomes of a single treated unit (e.g., a country, state, or city that has undergone some policy change) to a weighted combination of non-treated units, which serves as the "synthetic control". The synthetic control is constructed so that it closely matches the treated unit in terms of pre-intervention characteristics and outcomes. By comparing the post-intervention trajectory of the treated unit to its synthetic counterpart, researchers can infer the causal impact of the intervention.
+
+This approach has been used in various contexts, including economics and public health, to evaluate the effects of policy changes, interventions, or events when conventional controlled experiments are not possible. In this specific case, I aim to estimate the observed effects on Lithuania's inflation following the introduction of the Euro in the country in 2015, with the intent of making a causal inference about the benefits and/or drawbacks of adopting a single currency in a weaker country that seeks economic development.
+
+In short, it's understood that these countries aim to boost international trade by reducing trade barriers that come with adopting the bloc's currency. However, it's also known that prices tend to be higher (relatively more expensive) in countries that use the Euro. Thus, it's essential to understand whether the acquired benefits are enough to offset the potential inflation surge, especially in a shorter time horizon. That is, whether it's truly worthwhile for the country to adopt the single currency.
